@@ -1,24 +1,27 @@
 <?xml version="1.0" encoding="ISO-8859-1" ?>
+<!DOCTYPE package SYSTEM "../package.dtd">
 <!-- do not use the "Type" attribute here, that one is only for
      generated package.xml files -->
-<package>
+<package version="1.0">
   <name>Net_Finger</name>
   <summary>The PEAR::Net_Finger class provides a tool for querying Finger Servers</summary>
-  <maintainer>
-    <user>SN</user>
-    <name>Sebastian Nohn</name>
-    <email>sebastian@nohn.net</email>
-  </maintainer>
+  <maintainers>
+    <maintainer>
+      <user>nohn</user>
+      <name>Sebastian Nohn</name>
+      <email>sebastian@nohn.net</email>
+    </maintainer>
+  </maintainers>
   <release>
     <version>0.1</version>
     <date>2001-09-29</date>
     <notes>
       This is the initial independent release of the Net_Finger package.
     </notes>
-  </release>
-  <filelist>
-   <dir name="/" baseinstalldir="Net">
+    <filelist>
+      <dir name="/" baseinstalldir="Net">
         <file role="php">Finger.php</file>
-   </dir>
-  </filelist>
+      </dir>
+    </filelist>
+  </release>
 </package>
