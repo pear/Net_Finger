@@ -13,8 +13,8 @@
     </maintainer>
   </maintainers>
   <release>
-    <version>0.1</version>
-    <date>2001-09-29</date>
+    <version>1.0.0</version>
+    <date>2002-01-10</date>
     <notes>
       This is the initial independent release of the Net_Finger package.
     </notes>
@@ -23,5 +23,8 @@
         <file role="php">Finger.php</file>
       </dir>
     </filelist>
+    <deps>
+      <dep type="pkg" rel="has">Net_Socket</dep>
+    </deps>
   </release>
 </package>
