@@ -5,6 +5,9 @@
 <package version="1.0">
   <name>Net_Finger</name>
   <summary>The PEAR::Net_Finger class provides a tool for querying Finger Servers</summary>
+  <description>
+   Wrapper class for finger calls.
+  </description>
   <maintainers>
     <maintainer>
       <user>nohn</user>
@@ -12,8 +15,10 @@
       <email>sebastian@nohn.net</email>
     </maintainer>
   </maintainers>
+  <license>PHP License</license>
   <release>
     <version>1.0.0</version>
+    <state>stable</state>
     <date>2002-01-10</date>
     <notes>
       This is the initial independent release of the Net_Finger package.
