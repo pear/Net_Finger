@@ -1,0 +1,25 @@
+{
+    "authors": [
+        {
+            "email": "sebastian@nohn.net",
+            "name": "Sebastian Nohn",
+            "role": "Lead"
+        }
+    ],
+    "autoload": {
+        "classmap": [
+            "./"
+        ]
+    },
+    "description": "More info available on: http://pear.php.net/package/Net_Finger",
+    "license": "PHP License",
+    "name": "pear/net_finger",
+    "support": {
+        "issues": "http:///bugs/search.php?cmd=display&package_name[]=Net_Finger",
+        "source": "https://github.com/pear/Net_Finger"
+    },
+    "type": "library",
+    "require-dev": {
+        "phpunit/phpunit": "*"
+    }
+}
